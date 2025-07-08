@@ -1,0 +1,291 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+
+/*navbar*/
+#showit a{
+  border-bottom: 2px solid transparent;
+}
+
+#showit a:hover{
+  border-bottom: 2px solid #192841;
+
+}
+
+
+
+.mega-menu {
+  min-width: 800px;
+  max-width: 300px;
+  padding: 15px;
+  border: 3px solid #192841;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  z-index: 1000;
+}
+/* to right align the dropdown end menu*/
+.dropdown-align-right .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .mega-menu {
+    width: 100%;
+    position: static;
+  }
+}
+
+/* Hover dropdown on larger screens */
+@media (min-width: 768px) {
+  .mega-dropdown:hover .dropdown-menu {
+    display: block;
+    
+  }
+}
+
+/* Smooth transition */
+.dropdown-menu {
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+
+ /*mega dropdown end*/
+
+/*diamond slider photos + peral slider*/
+.photo{
+
+  position: relative;
+  width: 350px;
+  height: 450px;
+  display: inline-block;
+  border-radius: 8px;
+  overflow: hidden;
+  background: cover;
+  border: 2px solid #fff;
+
+}
+
+.img{
+  width: 100%;
+  transition: all linear 0.7s;
+
+}
+
+img.hower{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+
+}
+
+.photo:hover img{
+  opacity: 0;
+}
+
+.photo:hover img.hower{
+  opacity: 1;
+}
+
+
+
+/*diamond slider end*/
+
+
+/*product card*/
+
+.pro-card{
+
+    background-color: #fff;
+    position: relative;
+    width: 250px;
+    border: none;
+
+
+}
+
+.percent{
+
+width: 63px;
+height: 30px;
+position: absolute;
+background: #566b90;
+color: #fff;
+border-radius: 3px;
+display: flex;
+justify-content: center;
+align-items: center;
+right: 0;
+border-bottom-left-radius: 15px;
+padding: 10px;
+
+}
+
+
+
+.img{
+width: 100%;
+height: 100%;
+transition: all linear 0.7s;
+
+}
+
+img.hover-img{
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0;
+width: 100%;
+height: 50%;
+
+}
+
+.card-image:hover img{
+opacity: 0;
+}
+
+.card-image:hover img.hover-img{
+opacity: 1;
+}
+
+
+.details{
+
+border-radius: 20px;
+width: 110px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.wishlist{
+ 
+
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ color: #f7a754;
+background: #fdeddc;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+ transition: 0.5s all;
+ font-size: 15px;
+
+}
+
+
+.wishlist:hover{
+
+ color: #fff;
+     background: #f7a754;
+ 
+}
+
+.cart{
+
+width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ color: #fff;
+ background: #566b90;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+ transition: 0.5s all;
+ margin-left: 5px;
+ font-size: 15px;
+
+}
+
+
+/*product card end*/
+
+/*new and men's jewellery card*/
+
+.main-card{
+
+  transition: all 0.3s;
+  width:100%;
+  height:350px;
+  padding: 10px;
+}
+
+.main-card:hover{
+
+  transform: scale(1.15);
+  background-color: #192841;
+}
+
+.mycardtitle:hover{
+  color:#fff;
+  background-color: #192841;
+}
+
+.main-card img{
+  width:100%;
+  height:180px;
+}
+/* jewellery card end*/
+
+/* brand */
+
+.img-col{
+
+  width: 250px;
+}
+
+/*review card*/
+
+
+.testimonials{
+  border-left: 4px solid #566b90;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+
+}
+
+.testimonials img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.details{
+  display: inline-block;
+  font-size: 15px;
+  margin-left: 10px;
+
+}
+/*gift card + discount cards + diamond carousel + pearl carousel*/
+.gift-card{
+  transition: all 0.3s;
+}
+
+.gift-card:hover{
+  transform: scale(1.15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
